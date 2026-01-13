@@ -1,6 +1,27 @@
 
-body {
-  border: black 1px;
+body section{
+  display: flex;
+  grid-template-columns: fitcontent;
+  flex-direction: right;
+  background-color: cyan;
+  width: 500px;
+  height: 100px;
+}
+
+
+.twoEquallySizedColumns {
+  width: 500px;
+  height: 100px;
+  padding: 10px;
+
+}
+
+
+.equallySizedColumns {
+  background-color: grey;
+  flex: 1;
+  height: 100%;
+  margin: 10px;
 }
 
 
