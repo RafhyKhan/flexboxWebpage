@@ -2,26 +2,149 @@
 body section{
   display: flex;
   grid-template-columns: fitcontent;
-  flex-direction: right;
+  flex-wrap: wrap;
   background-color: cyan;
   width: 500px;
-  height: 100px;
 }
 
+/*
+Number 1
+*/
 
-.twoEquallySizedColumns {
+.twoEqualColumns {
   width: 500px;
-  height: 100px;
-  padding: 10px;
-
+  height: 50px;
+  padding: 10px;;
 }
 
-
-.equallySizedColumns {
+.twoEqualColumns .column1 {
   background-color: grey;
   flex: 1;
-  height: 100%;
-  margin: 10px;
+  margin-right: 5px;
 }
 
 
+.twoEqualColumns .column2 {
+  background-color: grey;
+  flex: 1;
+  margin-left: 5px;
+}
+
+/*
+Number 2
+*/
+
+.threeEqualColumns {
+  width: 500px;
+  height: 50px;
+  padding: 15px;
+}
+
+.threeEqualColumns .column1 {
+  background-color: grey;
+  flex: 1;
+  margin-right: 7.5px;
+}
+
+.threeEqualColumns .column2 {
+  background-color: grey;
+  flex: 1;
+  margin-right: 7.5px;
+  margin-left: 7.5px;
+}
+
+
+.threeEqualColumns .column3 {
+  background-color: grey;
+  flex: 1;
+  margin-left: 7.5px;
+}
+
+/*
+Number 3
+*/
+
+.threeUnequalColumns {
+  width: 500px;
+  height: 50px;
+  padding: 12px;
+}
+
+
+.threeUnequalColumns .column1 {
+  background-color: grey;
+  flex: 2;
+  margin-right: 6px;
+    border: 2px solid;
+
+}
+
+.threeUnequalColumns .column2 {
+  background-color: grey;
+  flex: 1;
+  margin-left: 6px;
+  margin-right: 6px;
+    border: 2px solid;
+
+}
+
+.threeUnequalColumns .column3 {
+  background-color: grey;
+  flex: 1;
+  margin-left: 6px;
+  border: 2px solid;
+}
+
+/*
+Number 4
+*/
+
+
+.fourEqualColumnsAndFooter {
+  width: 500px;
+  height: 50px;
+  padding: 12px;
+}
+
+.fourEqualColumnsAndFooter .column1 {
+  background-color: grey;
+  flex: 1;
+  margin-right: 6px;
+    border: 2px solid;
+
+}
+
+.fourEqualColumnsAndFooter .column2 {
+  background-color: grey;
+  flex: 1;
+  margin-left: 6px;
+  margin-right: 6px;
+    border: 2px solid;
+
+}
+
+.fourEqualColumnsAndFooter .column3 {
+  background-color: grey;
+  flex: 1;
+  margin-left: 6px;
+  margin-right: 6px;
+    border: 2px solid;
+
+}
+
+.fourEqualColumnsAndFooter .column4 {
+  background-color: grey;
+  flex: 1;
+  margin-left: 6px;
+    border: 2px solid;
+
+}
+
+
+.fourEqualColumnsAndFooter .footerColumn {
+  background-color: grey;
+  flex: 1;
+  margin-left: 6px;
+  width: 500px;
+
+}
