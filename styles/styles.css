@@ -3,7 +3,7 @@ body section{
   display: flex;
   grid-template-columns: fitcontent;
   flex-wrap: wrap;
-  background-color: cyan;
+  background-color: rgb(172, 214, 255);
   width: 500px;
 }
 
@@ -14,19 +14,22 @@ Number 1
 .twoEqualColumns {
   width: 500px;
   height: 50px;
-  padding: 10px;;
+  padding: 10px;
+  flex-wrap: wrap;
 }
 
 .twoEqualColumns .column1 {
   background-color: grey;
-  flex: 1;
+  height: 50px;
+  width: 245px;
   margin-right: 5px;
 }
 
 
 .twoEqualColumns .column2 {
   background-color: grey;
-  flex: 1;
+  height: 50px;
+  width: 245px;
   margin-left: 5px;
 }
 
@@ -66,16 +69,16 @@ Number 3
 
 .threeUnequalColumns {
   width: 500px;
-  height: 50px;
+  height: 54px;
   padding: 12px;
+  flex-wrap: wrap;
 }
-
 
 .threeUnequalColumns .column1 {
   background-color: grey;
   flex: 2;
   margin-right: 6px;
-    border: 2px solid;
+  border: 2px solid;
 
 }
 
@@ -84,7 +87,7 @@ Number 3
   flex: 1;
   margin-left: 6px;
   margin-right: 6px;
-    border: 2px solid;
+  border: 2px solid;
 
 }
 
@@ -99,52 +102,55 @@ Number 3
 Number 4
 */
 
-
 .fourEqualColumnsAndFooter {
   width: 500px;
-  height: 50px;
+  height: 120px;
+  flex-wrap: wrap;
   padding: 12px;
 }
 
 .fourEqualColumnsAndFooter .column1 {
   background-color: grey;
-  flex: 1;
+    flex:1;
   margin-right: 6px;
-    border: 2px solid;
-
+  border: 2px solid;
+  width: 100%;
 }
 
 .fourEqualColumnsAndFooter .column2 {
   background-color: grey;
-  flex: 1;
+    flex:1;
   margin-left: 6px;
   margin-right: 6px;
-    border: 2px solid;
-
+  border: 2px solid;
+    width: 100%;
 }
 
 .fourEqualColumnsAndFooter .column3 {
   background-color: grey;
-  flex: 1;
+      flex:1;
   margin-left: 6px;
   margin-right: 6px;
-    border: 2px solid;
+  border: 2px solid;
+    width: 100%;
 
 }
 
 .fourEqualColumnsAndFooter .column4 {
+      flex:1;
+        height: 50px;
   background-color: grey;
-  flex: 1;
   margin-left: 6px;
-    border: 2px solid;
+  border: 2px solid;
+  width: 100%;
 
 }
 
-
 .fourEqualColumnsAndFooter .footerColumn {
   background-color: grey;
-  flex: 1;
-  margin-left: 6px;
+  margin-top: 12px;
   width: 500px;
+  height: 50px;
+  border: 2px solid;
 
 }
